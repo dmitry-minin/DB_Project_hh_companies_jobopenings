@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "db-project-hh-companies-jobopenings"
+version = "0.1.0"
+description = ""
+authors = ["Dmitry Minin <d.n.minin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.5"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
